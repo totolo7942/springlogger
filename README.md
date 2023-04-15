@@ -60,3 +60,5 @@ scrape_configs:
   static_configs:
     - targets: ["localhost:8080"]
 ```
+* demon : https://github.com/alerta/prometheus-config/blob/master/docker-compose.yml
+* google/cadvisor
