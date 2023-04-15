@@ -27,6 +27,10 @@ dependencies {
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     annotationProcessor("org.projectlombok:lombok")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+    //metrics
+    implementation ("org.springframework.boot:spring-boot-starter-actuator")
+    implementation ("io.micrometer:micrometer-registry-prometheus")
 }
 
 tasks.withType<Test> {
